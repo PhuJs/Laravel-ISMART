@@ -1,0 +1,59 @@
+.filter_product {
+    background-color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.form_select {
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.form_select_product .label_total {
+    display: block;
+    margin-bottom: 6px;
+    color: #666;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+.form_select_product>.select_action {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #cecece;
+    color: #666;
+    outline: none;
+}
+
+.form_select_product>input[type='submit'] {
+    background-color: #bebebe;
+    border: none;
+    color: #fff;
+    padding: 3px 14px;
+    font-weight: 500;
+}
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .form_select_product .label_total {
+        margin-bottom: 5px;
+    }
+
+    .form_select {
+        text-align: right;
+        margin-bottom: 23px;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}

@@ -1,0 +1,145 @@
+#footer {
+    padding: 50px 0;
+}
+
+
+.box_logo {
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0d6efd;
+    margin-bottom: 25px;
+}
+
+.box_body .text {
+    color: #6d6d6d;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.payment img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.box_title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #555;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    padding-top: 4px;
+}
+
+.list_address {
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.list_address li {
+    margin-bottom: 5px;
+    position: relative;
+    font-size: 14px;
+    color: #6d6d6d;
+}
+
+.list_address li span {
+    padding-left: 10px;
+}
+
+.list_policy {
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.list_policy a {
+    text-decoration: none;
+    padding-left: 26px;
+    font-size: 14px;
+    color: #6d6d6d;
+    margin-bottom: 16px;
+    display: block;
+    position: relative;
+}
+
+.list_policy a:before {
+    content: ".";
+    position: absolute;
+    font-size: 50px;
+    color: red;
+    top: -210%;
+    left: 0;
+}
+
+.box_form input[type='email'] {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 6px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #555;
+}
+
+.box_form input[type='submit'] {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 6px;
+    border: none;
+    margin-top: 6px;
+    outline: none;
+    background-color: #0d6efd;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#footer_boot {
+    background-color: #0d6efd;
+    padding: 8px 0;
+    text-align: center;
+}
+
+#footer_boot p {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#back_top {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #footer {
+        padding: 35px 0;
+    }
+
+    .box_logo {
+        margin-bottom: 20px;
+    }
+
+    .box_title {
+        margin-bottom: 20px;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}

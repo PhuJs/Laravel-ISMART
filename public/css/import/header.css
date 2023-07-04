@@ -1,0 +1,14 @@
+
+.btn-t{
+    padding:8px 14px;
+    display:block;
+    border:1px solid white;
+    background:none;
+}
+
+.btn-t:focus{
+    border:1px solid rgba(0,123,255,.25);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    border-radius:8px;
+}

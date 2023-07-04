@@ -1,0 +1,17 @@
+#infor_order {
+    padding: 0;
+}
+
+#infor_order li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.infor_order_detail {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 20px;
+}

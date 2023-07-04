@@ -1,0 +1,10 @@
+@import "./import_cp/base.css";
+@import "./import_cp/header.css";
+@import "./import_cp/content.css";
+@import "./import_cp/footer.css";
+@import "./import_cp/about.css";
+@import "./import_cp/cart.css";
+@import "./import_cp/list_post.css";
+@import "./import_cp/product_cat.css";
+@import "./import_cp/payment.css";
+@import "./import_cp/product_detail.css";

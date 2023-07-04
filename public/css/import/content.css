@@ -1,0 +1,24 @@
+.status {
+    padding: 6px 12px;
+    color: white;
+    border-radius: 12px;
+}
+
+.btn-edit {
+    padding: 6px 10px;
+}
+
+.btn-edit:hover {
+    opacity: 0.8;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+#formImage {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 25px 50px;
+}

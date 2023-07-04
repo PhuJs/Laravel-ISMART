@@ -1,0 +1,65 @@
+.list_post>h3{
+    font-size: 25px;
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left:3px;
+}
+
+.post_title{
+    font-size: 21px;
+    display: block;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+
+.post_time{
+    font-size: 15px;
+    color: #333;
+    position:relative;
+    padding-left:25px;
+}
+
+.post_time i{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size:15px;
+    color:#333;
+}
+
+.post_desc{
+    font-size: 15px;
+    color: #555;
+}
+
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .list_post>h3{
+        font-size: 23px;
+        color: #555;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+    
+    
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}

@@ -1,0 +1,104 @@
+.section_cart_title {
+    position: relative;
+    display: block;
+    font-size: 21px;
+    color: #555;
+    text-transform: uppercase;
+    line-height: normal;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    font-family: 'Roboto Regular';
+    font-weight: 600;
+    margin-top:3px;
+}
+
+.section_cart_title::before{
+    content: "";
+    width: 25%;
+    height: 2px;
+    background-color: #bf2424;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+.list_order{
+    padding-left:0;
+}
+
+.list_order li{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 0;
+    border-bottom: 1px solid #ddd;
+    color:#555;
+    font-size:16px;
+}
+
+.list_order li>p{
+    margin:0;
+}
+
+
+.list_order li:first-child{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #333;
+    padding-top:10px;
+}
+
+
+.list_order li:last-child{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #333;
+    border:none;
+}
+
+.btn_order{
+    display: inline-block;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #3f5da6;
+    color: #fff;
+}
+
+.btn_order:hover{
+    opacity: 0.8;
+}
+
+/* ==================================================== */
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .section_cart_title {
+        font-size: 20px;
+        margin-bottom: 35px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .btn_order{
+        padding: 7px 27px;
+    }
+    
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}

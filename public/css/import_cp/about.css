@@ -1,0 +1,85 @@
+.section_about {
+    padding: 20px 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 8px 0px #ccc;
+}
+
+.section_about .title {
+    font-weight: 500;
+    font-size: 23px;
+    padding-bottom: 10px;
+    color: #555;
+}
+
+.section_about .time {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #989898;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-family: "Roboto";
+}
+
+.section_about .time::before {
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    content: "\f017";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.section_about .desc {
+    font-weight: 600;
+}
+
+.section_about .content {
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.breadcrumb {
+    position: relative;
+}
+
+.breadcrumb>i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.breadcrumb .list_item {
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.breadcrumb .list_item li {
+    display:flex;
+    align-items:center;
+}
+
+.breadcrumb .list_item li i{
+    font-size: 12px;
+    color: #555;
+    margin-top: 1px;
+}
+
+.breadcrumb .list_item li:first-child i{
+    display:none;
+}
+
+.breadcrumb .list_item li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 6px;
+    font-size: 15px;
+    color: #333;
+    position:relative;
+}
