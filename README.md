@@ -1,14 +1,18 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-<img src="public/images/img-post-01.jpg" atl="">
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p> -->
+
+<p align="center"> <img src="public/img-md/home.png" alt="" style="width:400px; height:auto;"> </p>
 
 ## Website Thương Mại Điện Tử ISMART
-- Website được xây dựng gồm hai phần: Client(phía người dùng) và Admin(Phía Server)
-- Về phần Client gồm các chức năng:
-+ Hiển thị dữ liệu sản phẩm, bài viết đúng theo yêu cầu.
-+ Hiển thị phân trang sản phẩm bài viết
-+ Xây dựng chức năng giỏ hàng với các tác vụ thêm, sửa, xóa sản phẩm trong giỏ hàng.
-+ Thực hiện thanh toán đơn hàng theo yêu cầu khách hàng, gửi Mail xác nhận đơn hàng trong trường hợp khách hàng có cung cấp Email liên hệ
- 
+- Website này được xây dựng với mục đích cung cấp cho người dùng một nền tảng mua và bán hàng trực tuyến.
+- Website được xây dựng gồm 2 phần: Client(phía người dùng) và Admin(phía quản trị viên).
+<h4>Mô tả các chức năng chính:</h4>
+<h5>Về phần Client<h5>
+
+<p align="center">
+<img src="public/img-md/post.png" alt="">
+</p>
+
+
 
 <!-- <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
